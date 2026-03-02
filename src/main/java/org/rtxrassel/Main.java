@@ -23,9 +23,7 @@ public class Main {
                 String phone = resultSet.getString("phone");
                 double cgpa = resultSet.getDouble("cgpa");
 
-                System.out.println(" ");
-
-                System.out.println("ID: "+id);
+                System.out.println("\nID: "+id);
                 System.out.println("Name: "+name);
                 System.out.println("Roll: "+roll);
                 System.out.println("Email: "+email);
