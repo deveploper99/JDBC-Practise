@@ -20,6 +20,9 @@ public class UpdateValue {
            if (result>0) System.out.println("data update successfull");
            else System.out.println("update failed");
 
+           con.close();
+           stmt.close();
+
        }catch (SQLException e){
            System.out.println("Connection Failed: "+e.getMessage());
        }
